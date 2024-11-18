@@ -1,0 +1,79 @@
+-Crear Persona 1
+curl --location 'http://localhost:8080/api/person' \
+--header 'Content-Type: application/json' \
+--data '{
+    "dni": "1234abc",
+    "firstName": "Alice",
+    "lastName": "Smith",
+    "age": 25,
+    "address": "123 Elm Street",
+    "emailAddress": "alice@example.com",
+    "cellNumber": 1111111111,
+    "createAt": null
+}'
+
+
+
+-Crear Persona 2
+curl --location 'http://localhost:8080/api/person' \
+--header 'Content-Type: application/json' \
+--data '{
+    "dni": "5678def",
+    "firstName": "Bob",
+    "lastName": "Brown",
+    "age": 30,
+    "address": "456 Oak Avenue",
+    "emailAddress": "bob@example.com",
+    "cellNumber": 2222222222,
+    "createAt": null
+}'
+
+
+
+-Crear Persona 3
+curl --location 'http://localhost:8080/api/person' \
+--header 'Content-Type: application/json' \
+--data '{
+    "dni": "9101ghi",
+    "firstName": "Charlie",
+    "lastName": "Davis",
+    "age": 28,
+    "address": "789 Pine Road",
+    "emailAddress": "charlie@example.com",
+    "cellNumber": 3333333333,
+    "createAt": null
+}'
+
+
+
+-Crear Persona 4
+curl --location 'http://localhost:8080/api/person' \
+--header 'Content-Type: application/json' \
+--data '{
+    "dni": "1213jkl",
+    "firstName": "Diana",
+    "lastName": "Evans",
+    "age": 35,
+    "address": "101 Maple Lane",
+    "emailAddress": "diana@example.com",
+    "cellNumber": 4444444444,
+    "createAt": null
+}'
+
+
+
+-Crear Persona 5
+curl --location 'http://localhost:8080/api/person' \
+--header 'Content-Type: application/json' \
+--data '{
+    "dni": "1415mno",
+    "firstName": "Eve",
+    "lastName": "Clark",
+    "age": 32,
+    "address": "202 Cedar Court",
+    "emailAddress": "eve@example.com",
+    "cellNumber": 5555555555,
+    "createAt": null
+}'
+
+
